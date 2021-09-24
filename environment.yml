@@ -1,0 +1,13 @@
+# conda env create --force -f environment.yml
+# conda activate srt_launchgui_env
+
+name: srt_launchgui_env
+dependencies:
+  - python=3.6.*
+  - numpy=1.16.*
+  - pyqtgraph=0.10.*
+  - pyqt=5.9.*
+  - pyserial=3.*
+  # - pip
+  # - pip:
+  #   - pyserial
